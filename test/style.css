@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(50, 202, 169);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.navbar {
+    width: 150px;
+    height: 900px;
+    position: absolute;
+    left: 600px;
+    background-color: #60eb72;
+    overflow-x: hidden;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.navbar i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+.content {
+    margin-left: 200px;
+    font-size: 28px;
+    padding: 0px 10px;
+}
+.container {
+    background-color: white;
+    padding-left: 250px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+input, select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.submit_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.title {
+    color: #60eb72;
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    bottom: 800px;
+    left: 1300px;
+}
+.money {
+    background-color: #60eb72;
+    color: aliceblue;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: 200px;
+    left: 1500px;
+}
+button {
+    margin-left: 30px;
+}
